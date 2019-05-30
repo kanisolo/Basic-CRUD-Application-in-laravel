@@ -18,6 +18,7 @@
 
         <div class="row">
             <div class="col-md-12">
+                @include('inc.messages')
                 @yield('content')
             </div>
         </div>
